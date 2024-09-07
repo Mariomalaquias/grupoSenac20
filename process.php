@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Falha na conexão: " . $conn->connect_error);
 }
 
-$nome = $_POST['nome'];
+$nome = $_POST['name'];
 $email = $_POST['email'];
 $data_entrada = $_POST['data_entrada'];
 $data_saida = $_POST['data_saida'];
